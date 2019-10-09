@@ -44,9 +44,41 @@ body {
   margin-top: 100px;
 }
 
-.parallax {
-  background: url(appel.jpg);
-  height: 150vh;
+.parallax-1 {
+  background: url("1.png");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-2 {
+  background: url("2.png");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-3 {
+  background: url("3.png");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-4 {
+  background: url("4.png");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-5 {
+  background: url("5.png");
+  height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -54,9 +86,14 @@ body {
 }
 
 .project {
+  margin-top: 10px;
   text-align: center;
   background-color: white;
-  height: 200px;
+  height: 150px;
+}
+.project h1 {
+  font-size: 2em;
+  text-transform: capitalize;
 }
 
 /*# sourceMappingURL=portfolio.css.map */

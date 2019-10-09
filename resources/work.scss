@@ -1,16 +1,39 @@
-.parallax{
-  background: url(appel.jpg);
-  height: 150vh;
+@mixin para($bk){
+  background: url($bk);
+  height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.parallax{
+  &-1{
+    @include para('1.png');
+  }
+  &-2{
+    @include para('2.png');
+  }
+  &-3{
+    @include para('3.png');
+  }
+  &-4{
+    @include para('4.png');
+  }
+  &-5{
+    @include para('5.png');
+  }
+}
+
+
 .project{
+  margin-top: 10px;
   text-align: center;
   background-color: white;
-  height: 200px;
-}
-#work1{
+  height: 150px;
+  h1{
+    font-size: 2em;
+    text-transform:  capitalize;
+  }
 
 }

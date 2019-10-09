@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: "Playfair Display", serif;
+  font-family: "Share Tech Mono", monospace;
 }
 
 .navbar {
@@ -25,14 +25,37 @@ body {
   text-decoration: none;
   margin: 20px;
 }
+.rightnav a:hover {
+  border-bottom: 2px solid gray;
+}
 
 .me {
+  height: 90vh;
   margin: 100px 30% 10px 30%;
   text-align: center;
 }
 .me img {
   margin-top: 10px;
   border-radius: 50%;
+  height: 200px;
+}
+.me h1 {
+  font-size: 1.2em;
+  margin-top: 100px;
+}
+
+.parallax {
+  background: url(appel.jpg);
+  height: 150vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.project {
+  text-align: center;
+  background-color: white;
   height: 200px;
 }
 

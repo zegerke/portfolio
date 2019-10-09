@@ -7,7 +7,7 @@
 	vertical-align: baseline;
 }
 body{
-  font-family: 'Playfair Display', serif;
+font-family: 'Share Tech Mono', monospace;
 }
 .navbar{
 margin:  20px 20px 0 20px;
@@ -21,10 +21,14 @@ font-size: 1.2em
   a{
   color: black;
   text-decoration: none;
-  margin: 20px
+  margin: 20px;
+}
+a:hover{
+  border-bottom: 2px solid gray;
 }
 }
 .me{
+  height: 90vh;
   margin:  100px 30%  10px 30%;
   text-align: center;
   img{
@@ -32,5 +36,8 @@ font-size: 1.2em
     border-radius: 50%;
     height:200px ;
   }
-
+  h1{
+    font-size: 1.2em;
+    margin-top: 100px;
+  }
 }

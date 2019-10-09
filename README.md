@@ -1,3 +1,3 @@
 # portfolio
 portfolio
-<a href="home.html">portfolio</a>
+<a href="https://zegerke.github.io/portfolio/home.html">portfolio</a>

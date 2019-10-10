@@ -17,7 +17,7 @@
   display: none;
   margin-top: 20px;
 }
-.hide:click~#cont{
+.hide:focus~#cont{
   display: block;
 }
 

@@ -9,6 +9,9 @@
 body{
 font-family: 'Share Tech Mono', monospace;
 }
+html{
+  scroll-behavior: smooth;
+}
 .navbar{
 margin:  20px 20px 0 20px;
 display: flex;
@@ -27,8 +30,22 @@ a:hover{
   border-bottom: 2px solid gray;
 }
 }
+.leftnav{
+  ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+    list-style: none;
+    i{
+      color: black;
+    }
+    i:hover{
+    transform: scale(1.4);
+  }
+  }
+}  
 .me{
-  height: 90vh;
+  height: 75vh;
   margin:  100px 30%  10px 30%;
   text-align: center;
   img{
@@ -38,6 +55,6 @@ a:hover{
   }
   h1{
     font-size: 1.2em;
-    margin-top: 100px;
+    margin-top: 150px
   }
 }

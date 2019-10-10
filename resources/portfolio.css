@@ -51,6 +51,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-box-shadow: inset 0px 0px 15px 8px #000000;
+  box-shadow: inset 0px 0px 15px 8px #000000;
 }
 .parallax-2 {
   background: url("2.png");
@@ -59,6 +61,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-box-shadow: inset 0px 0px 15px 8px #000000;
+  box-shadow: inset 0px 0px 15px 8px #000000;
 }
 .parallax-3 {
   background: url("3.png");
@@ -67,6 +71,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-box-shadow: inset 0px 0px 15px 8px #000000;
+  box-shadow: inset 0px 0px 15px 8px #000000;
 }
 .parallax-4 {
   background: url("4.png");
@@ -75,6 +81,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-box-shadow: inset 0px 0px 15px 8px #000000;
+  box-shadow: inset 0px 0px 15px 8px #000000;
 }
 .parallax-5 {
   background: url("5.png");
@@ -83,6 +91,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-box-shadow: inset 0px 0px 15px 8px #000000;
+  box-shadow: inset 0px 0px 15px 8px #000000;
 }
 
 .project {

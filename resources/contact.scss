@@ -22,7 +22,6 @@
 }
 
 .social{
-
   margin-top: 50px;
   display:flex;
   flex-flow: row;
@@ -30,6 +29,7 @@
   list-style: none;
   i{
     transform: scale(3);
+    color: black;
   }
   i:hover{
     transform: scale(3.5);

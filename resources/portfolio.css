@@ -9,6 +9,7 @@
 
 body {
   font-family: "Share Tech Mono", monospace;
+  background-color: white;
 }
 
 html {
@@ -53,6 +54,7 @@ html {
 }
 .me img {
   margin-top: 10px;
+  margin-bottom: 15px;
   border-radius: 50%;
   height: 200px;
 }
@@ -99,6 +101,15 @@ html {
 }
 .parallax-5 {
   background: url("5.png");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0px 11px 20px -10px #000, inset 0px -11px 20px -10px #000;
+}
+.parallax-6 {
+  background: url("6.png");
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
@@ -158,6 +169,7 @@ html {
 }
 .social i {
   transform: scale(3);
+  color: black;
 }
 .social i:hover {
   transform: scale(3.5);

@@ -8,6 +8,7 @@
 }
 body{
 font-family: 'Share Tech Mono', monospace;
+background-color: white;
 }
 html{
   scroll-behavior: smooth;
@@ -43,13 +44,14 @@ a:hover{
     transform: scale(1.4);
   }
   }
-}  
+}
 .me{
   height: 75vh;
   margin:  100px 30%  10px 30%;
   text-align: center;
   img{
     margin-top: 10px;
+    margin-bottom: 15px;
     border-radius: 50%;
     height:200px ;
   }

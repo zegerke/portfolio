@@ -150,6 +150,10 @@ html {
 .contact button:hover {
   transform: scale(1.2);
 }
+.contact a {
+  text-decoration: none;
+  color: black;
+}
 
 #cont {
   display: none;

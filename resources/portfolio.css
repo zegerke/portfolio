@@ -178,4 +178,23 @@ html {
   margin: 40px 40px;
 }
 
+audio#aH {
+  position: absolute;
+  top: 133vh;
+  left: 72vh;
+  z-index: 2;
+  opacity: 0.01;
+  transform: rotate(90deg) scale(5);
+}
+
+.download {
+  margin-top: 50px;
+  text-align: center;
+}
+.download button {
+  padding: 5px 10px;
+  font-size: 1.5em;
+  border-radius: 10px;
+}
+
 /*# sourceMappingURL=portfolio.css.map */
